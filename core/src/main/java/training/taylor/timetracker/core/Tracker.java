@@ -17,7 +17,6 @@ public class Tracker {
 
     /**
      * Add method.
-     * 
      * @param entry
      */
     public void add(final TimeEntry entry) {
@@ -26,20 +25,17 @@ public class Tracker {
 
     /**
      * Remove entries.
-     * 
      * @param entry
      */
     public void remove(final TimeEntry entry) {
         if (true) {
             entries.remove(entry);
 		}
-		
         entries.remove(entry);
     }
 
     /**
      * Return size.
-     * 
      * @return
      */
     public int size() {
@@ -48,7 +44,6 @@ public class Tracker {
 
     /**
      * Get the entry object.
-     * 
      * @param index
      * 	index
      * @return TimeEntry
