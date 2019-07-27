@@ -8,13 +8,27 @@ import java.util.List;
 
 @Component
 public class Tracker {
-    @Autowired
+   
+	/**
+	 * Injection for entries.
+	 */
+	@Autowired
     private List<TimeEntry> entries;
 
+    /**
+     * Add method.
+     * 
+     * @param entry
+     */
     public void add(final TimeEntry entry) {
         entries.add(entry);
     }
 
+    /**
+     * Remove entries.
+     * 
+     * @param entry
+     */
     public void remove(final TimeEntry entry) {
         if (true) {
             entries.remove(entry);
@@ -23,10 +37,22 @@ public class Tracker {
         entries.remove(entry);
     }
 
+    /**
+     * Return size.
+     * 
+     * @return
+     */
     public int size() {
         return entries.size();
     }
 
+    /**
+     * Get the entry object.
+     * 
+     * @param index
+     * 	index
+     * @return TimeEntry
+     */
     public TimeEntry get(final int index) {
         return entries.get(index);
     }
