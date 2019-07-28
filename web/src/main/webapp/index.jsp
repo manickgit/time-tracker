@@ -13,7 +13,7 @@
 <body>
   <h1>Very Simple Example Web Page</h1>
   <p>
-    1212121Resolve merge.sdfsd
+    Resolve merge.
     This is a very simple example web page on a JSP. Changes first time
     Resolve merge issues.
   </p>
